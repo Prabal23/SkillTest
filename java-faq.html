@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Skill Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- bootstrap css -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- fon awesome css -->
+	<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- style sheet -->
+	<link type="text/css" rel="stylesheet" href="css/test.css">
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+		<a href="index.html"><h2 class="title">online skill test</h2></a>
+			
+		</div>
+	</header>			
+			<section class="php">
+				<div class="container">
+				<div class="php-test">
+				<div class="row">
+					<div class="col-md-4 sidebar">
+						<h3 class="online">faq</h3>
+						<ul>
+							<a href="php-faq.html"><li>php faq </li></a>
+
+							<a href="java-faq.html"><li class="active">java faq</li></a>
+
+							<a href="c-faq.html"><li>c faq</li></a>
+
+							<a href="html-faq.html"><li>html/css faq</li></a>
+
+							<a href="phython-faq.html"><li>phython faq</li></a>
+
+							<a href="cplus-faq.html"><li>c+ faq</li></a>
+						</ul>
+					</div>
+					<div class="col-md-8">
+						<h3 class="online-test">java faq</h3>
+						
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingOne">
+						      <h4 class="panel-title">
+						        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						          Ques :  What is the difference between an Abstract class and Interface?
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						      <div class="panel-body">
+						        1. Abstract classes may have some executable methods and methods left
+						              unimplemented. Interfaces contain no implementation code.<br>
+						              2. An class can implement any number of interfaces, but subclass at most one abstract class.<br>
+						              3. An abstract class can have nonabstract methods. All methods of an interface are
+						              abstract.<br>
+						              4. An abstract class can have instance variables. An interface cannot.<br>
+						              5. An abstract class can define constructor. An interface cannot.<br>
+						              6. An abstract class can have any visibility: public, protected, private or none
+						              (package). An interface's visibility must be public or none (package).<br>
+						              7. An abstract class inherits from Object and includes methods such as clone() and
+						              equals().
+						      </div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingTwo">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						          Ques :  How can we submit a form without a submit button?
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						      <div class="panel-body">
+						        The main idea behind this is to use Java script submit() function in
+						                  order to submit the form without explicitly clicking any submit button.
+						                  You can attach the document.formname.submit() method to onclick,
+						                  onchange events of different inputs and perform the form submission. you
+						                  can even built a timer function where you can automatically submit the
+						                  form after xx seconds once the loading is done (can be seen in online
+						                  test sites).
+						      </div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingThree">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						          Ques :  In how many ways we can retrieve the data in the result set of MySQL using PHP?
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						      <div class="panel-body">
+						        You can do it by 4 Ways<br>
+						                  1. mysql_fetch_row.<br>
+						                  2. mysql_fetch_array<br>
+						                  3. mysql_fetch_object<br>
+						                  4. mysql_fetch_asso<br>
+						      </div>
+						    </div>
+						  </div><!-- End panel -->
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="heading4">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+						          Ques :  What is the difference between mysql_fetch_object and mysql_fetch_array?
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+						      <div class="panel-body">
+						        mysql_fetch_object() is similar tomysql_fetch_array(), with one difference -
+						                    an object is returned, instead of an array. Indirectly, that means that
+						                    you can only access the data by the field names, and not by their
+						                    offsets (numbers are illegal property names).
+						      </div>
+						    </div>
+						  </div><!-- End panel -->
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="heading5">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+						          Ques :  What are the differences between require and include,i nclude_once and require_once?
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+						      <div class="panel-body">
+						        The include() statement includes
+						                    and evaluates the specified file.The documentation below also applies to
+						                    require(). The two constructs
+						                    are identical in every way except how they handle
+						                    failure. include() produces a
+						                    Warning while require() results
+						                    in a Fatal Error. In other words, use
+						                    require() if you want a missing
+						                    file to halt processing of the page. 
+						                    include() does not behave this way, the script will
+						                    continue regardless.
+						                    The include_once()
+						                    statement includes and evaluates the
+						                    specified file during the execution of
+						                    the script. This is a behavior similar
+						                    to the include()
+						                    statement, with the only difference
+						                    being that if the code from a file has
+						                    already been included, it will not be
+						                    included again. As the name suggests, it
+						                    will be included just once.include_once()
+						                    should be used in cases where the same
+						                    file might be included and evaluated
+						                    more than once during a particular
+						                    execution of a script, and you want to
+						                    be sure that it is included exactly once
+						                    to avoid problems with function
+						                    redefinitions, variable value
+						                    reassignments, etc.
+						                    require_once()
+						                    should be used in cases where the same
+						                    file might be included and evaluated
+						                    more than once during a particular
+						                    execution of a script, and you want to
+						                    be sure that it is included exactly once
+						                    to avoid problems with function
+						                    redefinitions, variable value
+						                    reassignments, etc.
+						      </div>
+						    </div>
+						  </div><!-- End panel -->
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="heading6">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+						          Ques :  What are the different tables present in MySQL, which type of table is generated when we are <br>    creating a table in the following syntax:create table employee (eno int(2),ename varchar(10)) ?
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+						      <div class="panel-body">
+						        otal 5 types of tables we can create<br>
+						                    1. MyISAM<br>
+						                    2. Heap<br>
+						                    3. Merge<br>
+						                    4. INNO DB<br>
+						                    5. ISAM<br>
+						                    MyISAM is the default storage engine as of MySQL 3.23 and as a result if
+						                    we do not specify the table name explicitly it will be assigned to the
+						                    default engine.
+						      </div>
+						    </div>
+						  </div><!-- End panel -->
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="heading7">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+						          Ques :  Functions in IMAP, POP3 AND LDAP?
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+						      <div class="panel-body">
+						        You can find these specific information in PHP Manual.
+						      </div>
+						    </div>
+						  </div><!-- End panel -->
+						  <div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="heading8">
+						      <h4 class="panel-title">
+						        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+						          Ques :  In how many ways we can retrieve the data in the result set of MySQL using PHP?
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+						      <div class="panel-body">
+						        You can do it by 4 Ways<br>
+						                  1. mysql_fetch_row.<br>
+						                  2. mysql_fetch_array<br>
+						                  3. mysql_fetch_object<br>
+						                  4. mysql_fetch_asso<br>
+						      </div>
+						    </div>
+						  </div><!-- End panel -->
+						  
+						</div><!-- end panel group -->
+					</div>
+				</div><!-- end row -->
+
+				</div>
+					
+				</div>
+			</section>
+			
+	<footer class="footer">
+		<div class="container">
+		<h3>follow us on</h3>
+		<ul>
+			<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			
+		</ul>
+			
+		</div>
+	</footer>
+	<!-- script -->
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

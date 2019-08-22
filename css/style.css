@@ -1,0 +1,181 @@
+/*global css*/
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	margin: 0px auto;
+	padding: 0px;
+	line-height: 1.6rem;
+	text-align: center;
+	text-transform: capitalize;
+	min-height: 1190px;
+}
+a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+
+/*header style */
+.head-section{
+	background:linear-gradient(
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)
+		), url(../images/bg.jpg);
+	height: 494px;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title{
+	background: #000F30;
+	color: #ffffff;
+	padding: 30px;
+	margin-top: -3px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    margin-top: -16px;
+    margin-left: 143px;
+    margin-right: 199px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0px -30px;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: 160px;
+}
+.navbar-right li a{
+	color: #fff !important;
+    background: #37a5c5;
+    font-size: 17px;
+
+}
+.navbar-right li a i{
+	font-size: 18px;
+    padding-right: 7px;
+}
+.navbar-right li a:hover{
+	background: #2787a2 !important;
+}
+.modal-content{
+	width: 410px;
+    
+}
+.modal-body button{
+	font-size: 16px;
+	padding: 8px 27px;
+	text-transform: capitalize;
+    margin-top: 29px;
+}
+
+.welcome-section{
+	padding: 58px;
+	color: #fff;
+	text-transform: capitalize;
+}
+.wc-cap{
+	padding: 10px;
+	letter-spacing: 2px;
+}
+.srch{
+	padding: 8px;
+	border-radius: 9px;
+	border: none;
+	color: #101010;
+}
+.srch-btn{
+	background: #000F30;
+	font-size: 15px;
+	padding: 10px 12px;
+	border-radius: 5px;
+	border: none;
+}
+.caption p{
+	    line-height: 20px;
+}
+/*popular course section*/
+.pop-cap{
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+hr{
+	width: 130px;
+    border-top: 1px solid #c3b7b7;
+}
+.thumbnail{
+    height: 307px;
+}
+
+.course-link{
+	text-decoration: none;
+    color: #4f5454;
+}
+
+.fa-lightbulb-o{
+	font-size: 40px;
+	padding-top: 20px;
+	color: rgb(51, 126, 205);
+}
+
+p .btn-primary:hover{
+	background: #31B0D5;
+	color: #fff;
+}
+/*faq section*/
+.faq-section{
+	background: #E7E7E7;
+	height: 200px;
+}
+.btn-term .btn{
+	width: 117px;
+	padding-right: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*about us*/
+
+.skill-bar{
+	text-align: left;
+    margin-top: 20px;
+}
+.progres-bar span{
+	float: left;
+	padding: 2px;
+	margin-right: 5px;
+	width: 62px;
+}
+
+
+/*footer*/
+.footer{
+	width:100%;
+	background: #000F30;
+	color: #fff;
+	padding: 60px 0px;
+	margin-top: 40px;
+}
+.footer ul li{
+	display: inline-block;
+	padding-right: 13px;
+}
+.footer ul li i{
+	color: #fff;
+	display: inline-block;
+	font-size: 30px;
+}
+
+
+
+/*php test section*/
+.php{
+	margin-top: 20px;
+}
